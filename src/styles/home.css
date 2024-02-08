@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main_bg {
+  background-image: url(../images/backgrounds/main_bg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin: 0;
+  width: 100%;
+  height: 70vh;
+}
+.main_bg_text {
+  position: absolute;
+  text-align: center;
+  align-items: center;
+  font-size: 3.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  margin: 220px auto;
+}
+.main_bg_text .apple_day {
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #6e0000;
+}
+
+.container {
+  text-align: center;
+}
+.booking {
+  background-color: #e5eeed;
+  padding: 80px 100px;
+  margin: 0;
+}
+.top_section {
+  line-height: 5px;
+  color: #00554f;
+  margin-bottom: 40px;
+}
+.top_section h3 {
+  font-size: 3rem;
+}
+.top_section p {
+  font-size: 1rem;
+}
+.form_inputs {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+}
+.form_inputs #cities,
+#services {
+  width: 300px;
+  height: 50px;
+  padding: 10px 20px;
+  margin: 20px;
+  color: #00554f;
+  background-color: #ffff;
+  font-size: 1rem;
+  border: none;
+  border-radius: 30px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#submit_booking {
+  background-color: #00554f;
+  color: #ffff;
+  text-transform: capitalize;
+}
