@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Dr. Emily Carter",
+    "service": "Cardiologist",
+    "picture": "../images/doctorsPic/blank-profile-picture-973460_960_720.webp",
+    "rating": 5
+  },
+  {
+    "name": "Dr. John Smith",
+    "service": "Dermatologist",
+    "picture": "../images/doctorsPic/blank-profile-picture-973460_960_720.webp",
+    "rating": 4
+  },
+  {
+    "name": "Dr. Lisa Wong",
+    "service": "Pediatrician",
+    "picture": "../images/doctorsPic/blank-profile-picture-973460_960_720.webp",
+    "rating": 4
+  },
+  {
+    "name": "Dr. Mark Johnson",
+    "service": "Neurologist",
+    "picture": "../images/doctorsPic/blank-profile-picture-973460_960_720.webp",
+    "rating": 5
+  },
+  {
+    "name": "Dr. Sophia Lopez",
+    "service": "Psychiatrist",
+    "picture": "../images/doctorsPic/blank-profile-picture-973460_960_720.webp",
+    "rating": 5
+  },
+  {
+    "name": "Dr. Ahmad Khan",
+    "service": "Gastroenterologist",
+    "picture": "../images/doctorsPic/blank-profile-picture-973460_960_720.webp",
+    "rating": 4
+  },
+  {
+    "name": "Dr. Clara Rodriguez",
+    "service": "Endocrinologist",
+    "picture": "../images/doctorsPic/blank-profile-picture-973460_960_720.webp",
+    "rating": 5
+  },
+  {
+    "name": "Dr. Omar Farooq",
+    "service": "Orthopedic Surgeon",
+    "picture": "../images/doctorsPic/blank-profile-picture-973460_960_720.webp",
+    "rating": 4
+  },
+  {
+    "name": "Dr. Alice Murray",
+    "service": "Ophthalmologist",
+    "picture": "../images/doctorsPic/blank-profile-picture-973460_960_720.webp",
+    "rating": 5
+  },
+  {
+    "name": "Dr. Tanaka Hiro",
+    "service": "Urologist",
+    "picture": "../images/doctorsPic/blank-profile-picture-973460_960_720.webp",
+    "rating": 4
+  }
+]
