@@ -1,0 +1,37 @@
+article {
+  min-height: 500px;
+  background-color: #00554f;
+  padding: 80px 100px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  display: flex;
+}
+.doctorProfile {
+  background-color: #fff;
+  padding: 60px;
+  width: 70%;
+  height: 70vh;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.6);
+  border-radius: 25px;
+}
+.topArticle{
+    margin: 0 50px;
+}
+.topArticle .sideBySide{
+    display: flex;
+    justify-content: space-around;
+}
+
+.rightSide .pdpDoctor{
+    width: 150px;
+    border-radius: 50%;
+}
+.pdpDoctor #pdpDoctorImg{
+    width: 100%;
+    border-radius: 50%;
+}
+.doctorInformation{
+    text-align: left;
+}
