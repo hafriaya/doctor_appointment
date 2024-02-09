@@ -5,6 +5,7 @@ import Header from "./header";
 import Footer from "./footer";
 import profilePicture from "../images/doctorsPic/blank-profile-picture-973460_960_720.webp";
 import ratingStar from "../images/stars/rating-star-icon-28-removebg-preview.png";
+import { Link } from "react-router-dom";
 
 const Doctors = () => {
   const [doctors, setDoctors] = useState([]);
@@ -12,6 +13,7 @@ const Doctors = () => {
   useEffect(() => {
     setDoctors(doctorsData);
   }, []);
+  const doctorsFilter = [...new Set(doctors.map((doctor) => doctor.service))];
   return (
     <>
       <Header />
@@ -23,8 +25,8 @@ const Doctors = () => {
             onChange={(e) => setServiceSelected(e.target.value)}
           >
             <option selected>Select Service</option>
-            {doctors.map((doctor) => (
-              <option value={doctor.service}>{doctor.service}</option>
+            {doctorsFilter.map((service) => (
+              <option value={service}>{service}</option>
             ))}
           </select>
         </div>
@@ -39,7 +41,9 @@ const Doctors = () => {
                   alt={doctor.name + "_picture"}
                 />
                 <div className="bottomCard">
-                  <h3>{doctor.name}</h3>
+                  <Link id="doctorLink" to="/doctors/doctorProfile">
+                    <h3>{doctor.name}</h3>
+                  </Link>
                   <p id="doctor_service">{doctor.service}</p>
                   <div className="ratingIcon">
                     <img src={ratingStar} alt="ratingStar" />

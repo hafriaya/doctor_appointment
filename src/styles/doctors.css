@@ -1,6 +1,7 @@
 main{
     background-color: #e5eeed;
     padding: 50px;
+    min-height: 600px;
     /* text-align: center; */
 }
 #filterService {
@@ -29,6 +30,7 @@ main{
     border-radius: 10px;
     padding: 10px;
     margin: 20px;
+    cursor: pointer;
 }
 .doctorCard #profilePicture{
     width: 90%;
@@ -39,6 +41,13 @@ main{
     padding: 0 10px;
     margin: 0 10px;
     line-height: 10px;
+}
+.bottomCard #doctorLink{
+    text-decoration: none;
+    color: #111;
+}
+.bottomCard #doctorLink:hover{
+    text-decoration: underline;
 }
 .bottomCard #doctor_service{
     opacity: 0.5;
