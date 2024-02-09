@@ -27,20 +27,20 @@ main{
 .doctorCard{
     width: 250px;
     background-color: #ffff;
-    border-radius: 10px;
-    padding: 10px;
+    border-radius: 15px;
+    padding: 15px 5px;
     margin: 20px;
     cursor: pointer;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 .doctorCard #profilePicture{
     width: 90%;
     border-radius: 15px;
 }
 .bottomCard{
-    float: left;
     padding: 0 10px;
     margin: 0 10px;
-    line-height: 10px;
+    line-height: 7px;
 }
 .bottomCard #doctorLink{
     text-decoration: none;

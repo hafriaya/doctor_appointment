@@ -41,7 +41,10 @@ const Doctors = () => {
                   alt={doctor.name + "_picture"}
                 />
                 <div className="bottomCard">
-                  <Link id="doctorLink" to="/doctors/doctorProfile">
+                  <Link
+                    id="doctorLink"
+                    to={`/doctors/doctorProfile/${doctor.id}`}
+                  >
                     <h3>{doctor.name}</h3>
                   </Link>
                   <p id="doctor_service">{doctor.service}</p>
