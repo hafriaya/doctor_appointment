@@ -2,9 +2,11 @@ import Footer from "./footer";
 import Header from "./header";
 
 const About = () => {
-  <>
-    <Header />
-    <Footer />
-  </>;
+  return (
+    <>
+      <Header />
+      <Footer />
+    </>
+  );
 };
 export default About;
