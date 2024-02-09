@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 import doctorsData from "../data/doctorsData.json";
 import Header from "./header";
 import Footer from "./footer";
+import profilePicture from "../images/doctorsPic/blank-profile-picture-973460_960_720.webp";
+import ratingStar from "../images/stars/rating-star-icon-28-removebg-preview.png";
 
 const Doctors = () => {
   const [doctors, setDoctors] = useState([]);
@@ -26,14 +28,30 @@ const Doctors = () => {
             ))}
           </select>
         </div>
-        {doctors.map((doctor) => (
-          <div>
-            <p>{doctor.service}</p>
-            <p>{doctor.picture}</p>
-            <p>{doctor.name}</p>
-            <p>{doctor.rating}</p>
-          </div>
-        ))}
+        <div className="cardsDescription">
+          {doctors.map((doctor) =>
+            doctor.service === serviceSelected || serviceSelected === "" ? (
+              <div className="doctorCard">
+                {/* <img src={doctor.picture} alt={doctor.name+"_picture"}/> */}
+                <img
+                  id="profilePicture"
+                  src={profilePicture}
+                  alt={doctor.name + "_picture"}
+                />
+                <div className="bottomCard">
+                  <h3>{doctor.name}</h3>
+                  <p id="doctor_service">{doctor.service}</p>
+                  <div className="ratingIcon">
+                    <img src={ratingStar} alt="ratingStar" />
+                    <p>{doctor.rating}</p>
+                  </div>
+                </div>
+              </div>
+            ) : (
+              console.log("not selected")
+            )
+          )}
+        </div>
       </main>
       <Footer />
     </>

@@ -58,5 +58,65 @@
     "service": "Urologist",
     "picture": "../images/doctorsPic/blank-profile-picture-973460_960_720.webp",
     "rating": 4
+  },
+  {
+    "name": "Dr. Elena Rodriguez",
+    "service": "Cardiologist",
+    "picture": "../images/doctorsPic/blank-profile-picture-973460_960_720.webp",
+    "rating": 4
+  },
+  {
+    "name": "Dr. Chris Yamada",
+    "service": "Dermatologist",
+    "picture": "../images/doctorsPic/blank-profile-picture-973460_960_720.webp",
+    "rating": 5
+  },
+  {
+    "name": "Dr. Aisha Khan",
+    "service": "Pediatrician",
+    "picture": "../images/doctorsPic/blank-profile-picture-973460_960_720.webp",
+    "rating": 4
+  },
+  {
+    "name": "Dr. Simon Clark",
+    "service": "Neurologist",
+    "picture": "../images/doctorsPic/blank-profile-picture-973460_960_720.webp",
+    "rating": 5
+  },
+  {
+    "name": "Dr. Grace Tan",
+    "service": "Psychiatrist",
+    "picture": "../images/doctorsPic/blank-profile-picture-973460_960_720.webp",
+    "rating": 4
+  },
+  {
+    "name": "Dr. Abdul Rehman",
+    "service": "Gastroenterologist",
+    "picture": "../images/doctorsPic/blank-profile-picture-973460_960_720.webp",
+    "rating": 5
+  },
+  {
+    "name": "Dr. Rachel Kim",
+    "service": "Endocrinologist",
+    "picture": "../images/doctorsPic/blank-profile-picture-973460_960_720.webp",
+    "rating": 4
+  },
+  {
+    "name": "Dr. Victor Santos",
+    "service": "Orthopedic Surgeon",
+    "picture": "../images/doctorsPic/blank-profile-picture-973460_960_720.webp",
+    "rating": 5
+  },
+  {
+    "name": "Dr. Lily Chen",
+    "service": "Ophthalmologist",
+    "picture": "../images/doctorsPic/blank-profile-picture-973460_960_720.webp",
+    "rating": 4
+  },
+  {
+    "name": "Dr. Kenji Fujimoto",
+    "service": "Urologist",
+    "picture": "../images/doctorsPic/blank-profile-picture-973460_960_720.webp",
+    "rating": 5
   }
 ]

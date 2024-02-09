@@ -1,4 +1,55 @@
 main{
     background-color: #e5eeed;
     padding: 50px;
+    /* text-align: center; */
+}
+#filterService {
+    width: 300px;
+  height: 50px;
+  padding: 10px 20px;
+  margin: 20px;
+  color: #00554f;
+  background-color: #ffff;
+  font-size: 1rem;
+  border: 1px solid #00554f;
+  border-radius: 30px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.cardsDescription{
+    display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-around;
+  margin: 70px;
+  padding: 20px;
+}
+.doctorCard{
+    width: 250px;
+    background-color: #ffff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+.doctorCard #profilePicture{
+    width: 90%;
+    border-radius: 15px;
+}
+.bottomCard{
+    float: left;
+    padding: 0 10px;
+    margin: 0 10px;
+    line-height: 10px;
+}
+.bottomCard #doctor_service{
+    opacity: 0.5;
+}
+.ratingIcon{
+    display: flex;
+    width: 40px;
+    float: right;
+    /* background-color: rgb(203, 202, 202); */
+    /* border-radius: 10px; */
+}
+.ratingIcon img{
+    width: 70%;
 }
