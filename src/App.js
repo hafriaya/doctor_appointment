@@ -3,6 +3,7 @@ import "./App.css";
 import Doctors from "./pages/doctors";
 import Home from "./pages/home";
 import DoctorProfile from "./pages/doctorProfile";
+import About from "./pages/about";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
         <Routes>
           <Route index element={<Home />} />
           <Route index path="/home" element={<Home />} />
-          <Route path="/about" />
+          <Route path="/about" element={<About/>}/>
           <Route path="/doctors" element={<Doctors />} />
           <Route path="/doctors/doctorProfile/:doctorId" element={<DoctorProfile />} />
           <Route path="/contact" />
