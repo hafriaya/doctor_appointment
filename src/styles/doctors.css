@@ -2,6 +2,7 @@ main{
     background-color: #e5eeed;
     padding: 50px;
     min-height: 600px;
+    position: relative;
     /* text-align: center; */
 }
 #filterService {
