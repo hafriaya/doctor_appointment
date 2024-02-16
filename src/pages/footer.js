@@ -19,7 +19,7 @@ const Footer = () => {
         </ul>
       </div>
       <div id="copyright">
-        <p>© siTbib 2024 - tous droits réservés</p>
+        <p>© SiTbib 2024 - tous droits réservés</p>
       </div>
     </footer>
   );

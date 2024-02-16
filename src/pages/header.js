@@ -8,7 +8,7 @@ return (<header>
           <div className="brand_img">
             <img src={brand_img} alt="pharmacy_logo" />
           </div>
-          <h1>siTbib</h1>
+          <h1>SiTbib</h1>
         </div>
         <nav className="links">
           <ul>
