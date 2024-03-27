@@ -1,9 +1,10 @@
-import '../styles/common.css';
-import brand_img from '../images/icons/pharmacy_logo.png';
-import { Link } from 'react-router-dom';
-const Header =()=>{
-return (<header>
-    <div className="navbar">
+import "../styles/common.css";
+import brand_img from "../images/icons/pharmacy_logo.png";
+import { Link } from "react-router-dom";
+const Header = () => {
+  return (
+    <header>
+      <div className="navbar">
         <div className="brand_logo">
           <div className="brand_img">
             <img src={brand_img} alt="pharmacy_logo" />
@@ -13,32 +14,32 @@ return (<header>
         <nav className="links">
           <ul>
             <li>
-              <Link to='/home'>home</Link>
+              <Link to="/home">home</Link>
               {/* <a href="#home">home</a> */}
             </li>
             <li>
-            <Link to='/about'>about</Link>
+              <Link to="/about">about</Link>
               {/* <a href="#about">about</a> */}
             </li>
             <li>
-            <Link to='/doctors'>doctors</Link>
+              <Link to="/doctors">doctors</Link>
               {/* <a href="#doctors">Doctors</a> */}
             </li>
             <li>
-            <Link to='/contact'>contact</Link>
+              <Link to="/contact">contact</Link>
               {/* <a href="#contact">contact</a> */}
             </li>
           </ul>
         </nav>
         <div className="make_appointment">
-          <a href="#appointment">
+          <Link to="/appointment">
             <button id="appointment_button" value="make_appointment">
               Make Appointment
             </button>
-          </a>
+          </Link>
         </div>
       </div>
-</header>
-);
-}
+    </header>
+  );
+};
 export default Header;
